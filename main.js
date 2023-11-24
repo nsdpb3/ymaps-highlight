@@ -191,8 +191,7 @@ ymaps
 			"Будённовский проспект, 49/97",
 			"г. Ростов-на-Дону, Будённовский проспект, 49/97"
 		);
-	})
-	.then((marker) => map.pushMarkers(marker));
+	});
 document.addEventListener("DOMContentLoaded", function () {
 	let btns = document.querySelectorAll(".map-btn");
 	btns.forEach((btn) => {
