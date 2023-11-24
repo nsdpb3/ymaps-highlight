@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script
+			src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"
+			type="text/javascript"
+		></script>
+		<style>
+			#map {
+				height: 700px;
+				margin-top: 50px;
+			}
+			button {
+				background: transparent;
+				background-color: #111;
+				color: #fff;
+				font-family: sans-serif;
+				outline: unset;
+				border: unset;
+				padding: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Карта</h1>
+		<button class="map-btn" data-cords="55.764374, 37.596857">
+			Подсветить метку (г. Москва, Малый Козихинский переулок, 12)
+		</button>
+		<button class="map-btn" data-cords="55.746674, 37.559092">
+			Подсветить метку (г. Москва, Большая Дорогомиловская улица, 14к1)
+		</button>
+		<div id="map"></div>
+		<script src="/main.js"></script>
+	</body>
+</html>
